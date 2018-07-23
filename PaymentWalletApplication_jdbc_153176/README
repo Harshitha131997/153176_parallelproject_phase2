@@ -1,0 +1,10 @@
+create table customer_details
+(mobile_number NUMBER(10),
+name varchar2(50),
+balance number(10));
+
+create table transaction_details
+(mobile_number number(10),
+transaction_type varchar2(50),
+dateoftransaction date,
+balance number(10));
